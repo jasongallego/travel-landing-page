@@ -1,0 +1,256 @@
+/*.container {
+    border: 1px solid black;
+    width:80vw;
+    margin: 0 auto;
+}*/
+:root {
+    font-size: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 0 -15px;*/
+    width: 100%;   
+}
+
+.col {
+    width: 100%;
+    padding: 0 15px;  
+}
+
+.container {
+    /*max-width: 400px;
+    margin: 0 auto;*/
+    border: 1px solid black;
+    /*padding: 0 70px;*/  
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+/*.flex-column {
+    flex-direction: column;
+}
+<div class="flex flex-column">
+*/
+.items-center{
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+img {
+    border: 1px solid black;
+}
+
+.description {
+    font-family: Plus Jakarta Sans;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    letter-spacing: -0.005rem;
+    color:#7B7B7B;
+}
+
+.description_2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 2.4rem;
+    line-height: 3.0px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+}
+
+.description_3 {
+    font-family: Plus Jakarta Sans;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color:#AAAAAA;
+
+    
+}
+
+.btn {
+    border-radius: 34px;
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    line-height: 2.268rem;
+    color: #FFFFFF;
+    background-color: #3AAAA6;
+    /*margin-right: 25px;*/
+}    
+
+#logo {
+    margin-right: 16px;
+}
+
+#nav-wrapper {
+   /*justify-content: flex-end;*/
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;  
+}
+
+#hero {
+    height: calc(100vh - 44px);
+    background-color:#f2f2f2;
+    /*background-color:#FFFFFF;*/
+    /*background: linear-gradient(180deg, #FAFAFA 38.85%, #FFFFFF 99.89%);*/
+}
+
+#hero h1 {
+    /*height: 100vh;*/
+    font-family: Plus Jakarta Sans;
+    font-size: 5.6rem;
+    line-height: 7.8rem;
+    letter-spacing: 0em;
+    color:#000000;   
+    /*
+    font-family: Plus Jakarta Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    letter-spacing: 0.142rem*/  
+ }
+
+header {
+    display: none;
+    font-size: 1.6rem;
+}
+
+
+/*'sm': '640px',*/ 
+    @media (min-width: 640px) { 
+    
+    header {
+        display: flex;
+    }
+    .col-sm-1 {
+        width: 8.3333333333%;
+    }
+    .col-sm-2 {
+        width: 16.6666666667%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.3333333333%;
+    }
+    .col-sm-5 {
+        width: 41.6666666667%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.3333333333%;
+    }
+    .col-sm-8 {
+        width: 66.6666666667%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-10 {
+        width: 83.3333333333%;
+    }
+    .col-sm-11 {
+        width: 91.6666666667%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    }
+
+/*'md': '768px',*/
+    @media (min-width: 768px) {
+        
+           
+        header{
+            display: flex;
+        } 
+        .col-md-1 {
+            width: 8.3333333333%;
+        }
+        .col-md-2 {
+            width: 16.6666666667%;
+        }
+        .col-md-3 {
+            width: 25%;
+        }
+        .col-md-4 {
+            width: 33.3333333333%;
+        }
+        .col-md-5 {
+            width: 41.6666666667%;
+        }
+        .col-md-6 {
+            width: 50%;
+        }
+        .col-md-7 {
+            width: 58.3333333333%;
+        }
+        .col-md-8 {
+            width: 66.6666666667%;
+        }
+        .col-md-9 {
+            width: 75%;
+        }
+        .col-md-10 {
+            width: 83.3333333333%;
+        }
+        .col-md-11 {
+            width: 91.6666666667%;
+        } 
+        .col-md-12 {
+            width: 100%;
+        }  
+    }
+
+/*'lg': '1024px',*/
+    @media (min-width: 1024px) { 
+        /*.container {
+        max-width: 1024px;
+        margin: 0 auto;
+        }*/
+    header{
+        display: flex;
+        }
+        
+    }
+
+/*'xl': '1280px',*/
+    @media (min-width: 1280px) { 
+        .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        }
+        header{
+            display: flex;
+            }
+        }
+ 
+        /*<img 
+        src="assets/Vector 1.png"
+                width="30px"
+                height="2px" class="vector1"/>*/ 
+
+
